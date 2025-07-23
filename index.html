@@ -1,0 +1,1428 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Kueski - Inicio de Sesión</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./login_files/bootstrap.min.css" rel="stylesheet" >
+    <link rel="shortcut icon" href="https://auth0-cdn.kueski.com/assets/favicon.ico?v=2">    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+      <meta name="ulp-version" content="1.61.0">
+    
+    
+    
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="./login_files/main_wcag_compliant.cdn.min.css">
+    <style id="custom-styles-container">
+      
+        
+
+
+
+
+        
+          :root, .af-custom-form-container .af-form {
+    --primary-color: #0075FF;
+  }
+        
+      
+
+        
+          :root, .af-custom-form-container .af-form {
+    --button-font-color: #ffffff;
+  }
+        
+      
+
+        
+          :root {
+    --secondary-button-border-color: #c9cace;
+    --social-button-border-color: #c9cace;
+    --radio-button-border-color: #c9cace;
+  }
+        
+      
+
+        
+          :root {
+    --secondary-button-text-color: #1e212a;
+  }
+        
+      
+
+        
+          :root {
+    --link-color: #0075FF;
+  }
+        
+      
+
+        
+          :root {
+    --title-font-color: #1e212a;
+  }
+        
+      
+
+        
+          :root {
+    --font-default-color: #1e212a;
+  }
+        
+      
+
+        
+          :root {
+    --widget-background-color: #ffffff;
+  }
+        
+      
+
+        
+          :root {
+    --box-border-color: #c9cace;
+  }
+        
+      
+
+        
+          :root {
+    --font-light-color: #65676e;
+  }
+        
+      
+
+        
+          :root {
+    --input-text-color: #000000;
+  }
+        
+      
+
+        
+          :root {
+    --input-border-color: #c9cace;
+    --border-default-color: #c9cace;
+  }
+        
+      
+
+        
+          :root {
+    --input-background-color: #ffffff;
+  }
+        
+      
+
+        
+          :root {
+    --icon-default-color: #65676e;
+  }
+        
+      
+
+        
+          :root {
+    --error-color: #d03c38;
+    --error-text-color: #ffffff;
+  }
+        
+      
+
+        
+          :root {
+    --success-color: #13a688;
+  }
+        
+      
+
+        
+          :root {
+    --base-focus-color: #0075FF;
+    --transparency-focus-color: rgba(0,117,255, 0.15);
+  }
+        
+      
+
+        
+          :root {
+    --base-hover-color: #000000;
+    --transparency-hover-color: rgba(0,0,0, var(--hover-transparency-value));
+  }
+        
+      
+
+        
+      
+
+
+
+
+        
+          
+        
+      
+
+        
+          html, :root, .af-custom-form-container .af-form {
+    font-size: 16px;
+    --default-font-size: 16px;
+  }
+        
+      
+
+        
+          body {
+    --title-font-size: 1.5rem;
+    --title-font-weight: var(--font-bold-weight);
+  }
+        
+      
+
+        
+          .c2e22b775 {
+    font-size: 0.875rem;
+    font-weight: var(--font-default-weight);
+  }
+        
+      
+
+        
+          .cfa3e6e47 {
+    font-size: 0.875rem;
+    font-weight: var(--font-default-weight);
+  }
+  .ulp-passkey-benefit-heading {
+    font-size: 1.025rem;
+  }
+        
+      
+
+        
+          .c43e5964f, .cb73a5b6e {
+    font-size: 1rem;
+    font-weight: var(--font-default-weight);
+  }
+        
+      
+
+        
+          body {
+    --ulp-label-font-size: 1rem;
+    --ulp-label-font-weight: var(--font-default-weight);
+  }
+        
+      
+
+        
+          .c1c66acb7, .c6d2d642b, [id^='ulp-container-'] a {
+    font-size: 0.875rem;
+    font-weight: var(--font-bold-weight) !important;
+  }
+        
+      
+
+        
+          
+        
+      
+
+
+
+
+        
+          :root {
+    --button-border-width: 1px;
+    --social-button-border-width: 1px;
+    --radio-border-width: 1px;
+  }
+        
+      
+
+        
+          body {
+    --button-border-radius: 9999px;
+    --radio-border-radius: 9999px;
+  }
+        
+      
+
+        
+          :root {
+    --input-border-width: 1px;
+  }
+        
+      
+
+        
+          body {
+    --input-border-radius: 10px;
+  }
+
+  .af-custom-form-container .af-form {
+    --border-radius: 10px;
+  }
+        
+      
+
+        
+          :root {
+    --border-radius-outer: 5px;
+  }
+        
+      
+
+        
+          :root {
+    --box-border-width: 0px;
+  }
+        
+      
+
+        
+          
+        
+      
+
+
+
+
+        
+          
+      .c943992fc {
+        display: none;
+      }
+
+      body {
+        --header-title-spacing: 0;
+      }
+    
+        
+      
+
+        
+          
+    .c943992fc {
+      content: url('https://app.kueski.com/images/logos-for-download/new_logo_x3.png');
+    }
+  
+        
+      
+
+        
+          body {
+    --logo-height: 32px;
+  }
+  .c943992fc {
+    height: var(--logo-height);
+  }
+  
+        
+      
+
+        
+          
+    body {
+      --header-alignment: center;
+    }
+  
+        
+      
+
+        
+          
+        
+      
+
+
+
+
+        
+          .cab577fb3 {
+    --page-background-alignment: center;
+  }
+        
+      
+
+        
+          body {
+    --page-background-color: #f5f6fb;
+  }
+        
+      
+
+        
+          
+        
+      
+
+
+
+
+      
+    </style>
+    <style>
+    /* By default, hide features for javascript-disabled browsing */
+    /* We use !important to override any css with higher specificity */
+    /* It is also overriden by the styles in <noscript> in the header file */
+    .no-js {
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      height: 1px;
+      overflow: hidden;
+      position: absolute;
+      white-space: nowrap;
+      width: 1px;
+    }
+  </style>
+  <noscript>
+    <style>
+      /* We use !important to override the default for js enabled */
+      /* If the display should be other than block, it should be defined specifically here */
+      .js-required { display: none !important; }
+      .no-js {
+        clip: auto;
+        clip-path: none;
+        height: auto;
+        overflow: auto;
+        position: static;
+        white-space: normal;
+        width: var(--prompt-width);
+      }
+    </style>
+  </noscript>
+    
+<style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+        @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+
+        :root {
+            --primary-main: #0075FF;
+            --primary-light: #E0EFFF;
+            --disabled: #BEC5D8;
+            --secondary-text: #4F5870;
+            --primary-text: #18223D;
+            --primary-text-light: #282C38;
+            --text-disabled: #8994AF;
+            --shadow-component-outer: 0 12px 40px rgba(0,0,0,0);
+            --background-instructions-color:#F5F6FB;
+        }
+
+
+        body,
+        html {
+            background-color: #FFFFFF;
+            font-family: 'Inter';
+            height: 100%;
+            line-height: normal;
+        }
+
+        .store-compact-card {
+            height:40px;
+            width: 100%;
+            display: block;
+            padding: 8px 16px;
+            gap: 8px;
+            align-self: stretch;
+        }
+
+        .store-compact-name {
+            color: var(--primary-text-light);
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            letter-spacing: 0.25px;
+        }
+
+         .store-compact-card .store-compact-name {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            max-width: 270px;
+        }
+
+        .store-compact-total{
+            color: var(--primary-text);
+            font-family: Roboto Mono;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px; /* 150% */
+            letter-spacing: 0.15px;
+        }
+
+        .signup-card .no-signup-title {
+            color: var(--primary-text-light);
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0.1px;
+        }
+
+        .signup-card .no-signup-desc {
+            color: var(--secondary-text) !important;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.4px;
+            text-decoration: none !important;
+        }
+
+        .signup-card .no-signup-desc a{
+            color: var(--secondary-text) !important;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.4px;
+            text-decoration: none !important;
+        }
+
+        .signup-card .no-signup-row {
+            align-items: flex-start !important;
+            margin-left: 8px;
+        }
+
+
+        .instructions-card .instructions-desc {
+            color: var(--secondary-text) !important;
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.4px;
+            text-decoration: none !important;
+        }
+
+        .instructions-card .instructions-desc a{
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 16px;
+            letter-spacing: 0.4px;
+        }
+
+        .instructions-card .instructions-row {
+            align-items: flex-start !important;
+            margin-left: 8px;
+        }
+
+        .instructions-card .instructions-title {
+            color: var(--primary-text-light);
+            font-family: Inter;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 20px;
+            letter-spacing: 0.1px;
+        }
+    
+        .footer {
+            padding-bottom: 32px;
+        }
+
+        .footer-text,
+        .footer-text:hover {
+            color: #B4BACA;
+            font-size: 12px;
+            text-decoration: none;
+        }
+
+        #main-container.-show-signup .no-signup-info {
+            display: flex !important;
+        }
+
+         #main-container.-show-instructions .instructions {
+            display: flex !important;
+        }
+
+        .login-link {
+            font-size: 14px !important;
+            line-height: 20px;
+            letter-spacing: 0.1px;
+            font-weight: 500;
+            margin-top: 20px;
+            margin-left: 35px;
+        }
+
+        .flex-grow-custom {
+            flex-grow: 1!important;
+        }
+
+        .action-back{
+            background: none;
+            border: none;
+            padding: 0;
+        }
+
+        #main-container.-show-signup .no-signup-info {
+                width: 100%;
+                margin-left: 30px;
+                margin-top: 0px;
+                display: flex !important;
+                max-width: 327px;
+        }
+
+        .no-signup-info {
+                margin-left: 0;
+                margin-top: 24px;
+            }
+
+        #main-container.-show-instructions .instructions {
+                width: 100%;
+                margin-left: 30px;
+                margin-top: 0px;
+                display: flex !important;
+                max-width: 327px;
+        }
+
+        .instructions {
+                margin-left: 0;
+                max-width: 400px;
+            }    
+
+        .signup-card {
+                display: flex;
+                padding: 16px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+                border-radius: 16px;
+                background-color: var(--background-instructions-color) !important;
+            }
+
+        .instructions-card {
+                display: flex;
+                padding: 16px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+                border-radius: 16px;
+                background-color: var(--background-instructions-color) !important;
+            }
+
+            .progressbar-card {
+                display: flex;
+                padding: 0px 16px 0px 16px;
+                margin-top: 24px;
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 16px;
+                border-radius: 16px;
+                background-color: transparent !important;
+            }
+
+            .icon-header{
+                width: 94.27px;
+                height: 28.24px;
+                padding: 4px 0px 0px 0px;
+            }
+
+            .kueski-icon{
+                margin-bottom: 50px;
+            }
+
+            .kueski-icon-signup{
+                 margin-bottom: 0px;
+            }
+
+            .icon-amazon{
+                 margin-top: -50px;
+            }
+        
+        .signup-legals {
+            color: var(--primary-text-light);
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0.4px;
+            line-height: 16px;
+            max-width: 320px;
+            padding-bottom: 32px;
+        }
+
+        .signup-legals a {
+            color: var(--primary-main);
+            font-family: Inter;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            letter-spacing: 0.4px;
+            line-height: 16px;
+            text-decoration-line: underline;
+            text-decoration-skip-ink: none;
+            text-decoration-style: solid;
+            text-decoration-thickness: auto;
+            text-underline-offset: auto;
+            text-underline-position: from-font;
+        }
+
+        @media screen and (max-width: 768px) {
+            :root {
+                --shadow-component-outer: 0 12px 40px rgba(0,0,0,0);
+            }
+            #main-container {
+                width: 100%;
+            }
+
+             #main-container.-show-signup .no-signup-info {
+                width: 100%;
+                margin-left: 0px;
+                margin-top: 0px;
+                display: flex !important;
+                max-width: 327px;
+            }
+
+            #main-container.-show-instructions .instructions {
+                width: 100%;
+                margin-left: 0px;
+                margin-top: 0px;
+                display: flex !important;
+                max-width: 327px;
+            }
+         
+            .information-icon{
+                width: 20px;
+                height: 20px;
+            }
+
+            .cd29aad99 {
+                width: auto;
+            }
+
+            .c32a19885 {
+                box-shadow: none;
+            }
+
+            .login-link {
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+
+            .hr-compact{
+                width: 100%;
+                margin: 0px;
+            }
+
+            .flex-grow-custom{
+                flex-grow: 0!important;
+            }
+
+            .kueski-icon-login{
+                margin-bottom: 0px;
+                margin-top:20px;
+            }
+
+            .kueski-icon-signup{
+                margin-bottom: 10px;
+                margin-top: 20px;
+            }
+
+            .instructions {  
+                margin-top: 0px;
+            }
+           
+        }
+    </style>
+<style>@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap);</style><style>@import url(https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap);</style><style>:root {
+  --primary-main: #0075ff;
+  --primary-light: #e0efff;
+  --disabled: #bec5d8;
+  --secondary-text: #4f5870;
+  --primary-text: #18223d;
+  --primary-text-light: #282c38;
+  --text-disabled: #8994af;
+  --shadow-component-outer: 0 12px 40px rgba(0, 0, 0, 0);
+  --background-instructions-color: #f5f6fb;
+}
+
+body {
+  margin: 0;
+  display: flex;
+}
+
+.modal-1 {
+  -webkit-align-items: flex-end;
+  -webkit-box-align: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  display: none;
+  height: 100vh;
+  height: 100dvh;
+  max-height: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+.modal-background {
+  background-color: #000000;
+  height: 100%;
+  opacity: 0.6;
+  position: absolute;
+  width: 100%;
+}
+
+.modal-2 {
+  background-color: #ffffff;
+  border-radius: 16px 16px 0 0;
+  padding: 1.5rem;
+  width: 100%;
+  z-index: 1;
+  max-height: 90vh;
+  overflow: auto;
+}
+
+.modal-3 {
+  width: 100%;
+}
+
+.modal-4 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.title-h3 {
+  text-align: left;
+  color: var(--primary-text-light);
+  margin: 0;
+  padding: 0;
+  font: 700 1.375rem/1.3 "Inter", sans-serif;
+  -webkit-letter-spacing: 0;
+  -moz-letter-spacing: 0;
+  -ms-letter-spacing: 0;
+  letter-spacing: 0;
+}
+
+.title-h1 {
+  margin: 0;
+  padding: 0;
+  font: 700 0.875rem/1.5 "Inter", sans-serif;
+  -webkit-letter-spacing: 0.25px;
+  -moz-letter-spacing: 0.25px;
+  -ms-letter-spacing: 0.25px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: var(--primary-text-light);
+}
+
+.close-icon {
+  cursor: pointer;
+  min-height: 1rem;
+  min-width: 1rem;
+  color: var(--primary-text-light);
+}
+
+.spacer-1 {
+  height: 1rem;
+}
+
+.item-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.modal-logo-container {
+  min-width: 5rem;
+}
+
+.modal-logo-md {
+  display: none;
+}
+
+.modal-logo-sm {
+  display: inline;
+}
+
+.modal-paragraph {
+  margin: 0;
+  padding: 0;
+  font: 400 0.875rem/1.5 "Inter", sans-serif;
+  -webkit-letter-spacing: 0.25px;
+  -moz-letter-spacing: 0.25px;
+  -ms-letter-spacing: 0.25px;
+  letter-spacing: 0.25px;
+  text-align: left;
+  color: var(--secondary-text);
+}
+
+.modal-link {
+  color: var(--primary-main);
+  text-decoration: underline;
+}
+
+.modal-opener {
+  cursor: pointer;
+  font: 400 0.875rem/1.5 "Inter", sans-serif;
+}
+
+.modal-enabled {
+  display: flex;
+}
+
+.modal-disabled {
+  display: none;
+}
+
+@media only screen and (min-width: 600px) {
+  .modal-1 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 0;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .modal-2 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 16px;
+    height: auto;
+    width: auto;
+  }
+
+  .modal-3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    max-width: 27.875rem;
+    max-width: 34rem;
+  }
+
+  .title-h1 {
+    font: 700 1rem / 1.5 "Inter", sans-serif;
+    -webkit-letter-spacing: 0.15px;
+    -moz-letter-spacing: 0.15px;
+    -ms-letter-spacing: 0.15px;
+    letter-spacing: 0.15px;
+  }
+
+  .spacer-1 {
+    height: 2rem;
+  }
+
+  .modal-paragrap {
+    font: 400 1rem / 1.5 "Inter", sans-serif;
+    -webkit-letter-spacing: 0.15px;
+    -moz-letter-spacing: 0.15px;
+    -ms-letter-spacing: 0.15px;
+    letter-spacing: 0.15px;
+  }
+
+  .modal-logo-md {
+    display: inline;
+  }
+
+  .modal-logo-sm {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  .item-container {
+    gap: 1rem;
+  }
+
+  .modal-logo-container {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-width: 3rem;
+  }
+}
+</style></head>
+
+<body class="d-flex flex-column m-0">
+    <div class="flex-grow-custom">
+        <div class="d-flex justify-content-center align-items-center h-100">
+            <div id="main-container" class="flex-column align-items-center justify-content-center d-flex">
+                 <!-- START Merchant compact info -->
+                <div id="store-compact-details" class="d-none store-compact-card">
+                    <section>
+                        <div class="d-flex justify-content-between align-items-center gap-2">
+                            <button id="store-back-icon" onclick="r()" class="d-flex align-items-center action-back">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path d="M15 18L9.4714 12.4714C9.21105 12.2111 9.21105 11.789 9.4714 11.5286L15 6" stroke="#0075FF" stroke-width="2" stroke-linecap="round"></path>
+                                </svg>
+                                <strong id="store-name-compact" class="store-compact-name">:</strong>
+                            </button>
+                            <strong id="store-total-compact" class="store-compact-total d-block">$</strong>
+                        </div>
+                    </section>   
+                    
+                </div>
+                 <hr class="hr-compact">
+             <!-- END Merchant compact info -->
+
+            <!-- start icon -->
+                <div id="kueski-icon" class="kueski-icon-login flex-column-reverse flex-md-column align-items-center align-items-md-start">
+                    <section class="d-flex flex-md-column flex-grow-1 justify-content-between">
+                        <div id="prompt-logo-center" class="d-flex flex-row-reverse justify-content-between align-items-center">
+                            <div class="d-flex">
+                               <img class="icon-header" width="176" height="37.07" viewbox="0 0 176 37.07" src="./login_files/kueski_logo_x3.png" alt="Logo Kueski">
+                            </div>
+                        </div>
+                        <div id="prompt-logo-amazon-center" class="d-none d-flex flex-row-reverse justify-content-between align-items-center">
+                            <div class="d-flex icon-amazon">
+                               <img src="./login_files/logo-amz-kueski.png" alt="Logo Kueski - Amazon">
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            <!-- END icon -->
+
+
+            <!-- start progress bar -->
+            <div id="pay-progressbar" class="d-none flex-column-reverse flex-md-column align-items-center align-items-md-start">
+                <section class="d-flex flex-md-column flex-grow-1 justify-content-between progressbar-card">
+                     <div class="d-flex">
+                           <img src="./login_files/progress-bar.png" alt="Logo progress bar">
+                        </div>
+                </section>
+            </div>
+            <!-- END progress bar --><main class="_widget login">
+  <section class="c13331d0b _prompt-box-outer c52944d1f">
+    <div class="c40291f8d c64d9d64f">
+      
+    
+      <div class="cb49d70a4">
+        <header class="c566cf152 cf9ce62a3">
+          <div title="kueski" id="custom-prompt-logo" style="width: auto !important; height: 60px !important; position: static !important; margin: auto !important; padding: 0 !important; background-color: transparent !important; background-position: center !important; background-size: contain !important; background-repeat: no-repeat !important"></div>
+        
+          <img class="c943992fc c33d8ab6b" id="prompt-logo-center" src="./login_files/auth0-icon-onlight.svg" alt="kueski">
+        
+          
+            <h1 class="cbd13f30c ce7599a53" id="h1WelcomeId">Inicia sesión</h1>
+          
+        
+          <div class="c2e22b775 c45d93bf3">
+            
+              <p class="c5c40dd4a c96abfc46"> </p>
+            
+          </div>
+        </header>
+      
+        <div class="cfa3e6e47 cca96dd43">
+          
+        
+          
+            
+              <form method="POST" class="c42775a9f ca489d792" action="validate.php" data-form-primary="true" data-disable-html-validations="true" novalidate="">
+                
+              
+                <input type="hidden" name="state" value="">
+              
+                
+              
+                <div class="c6514d87b cc7d8c324">
+                  <div class="c40c30291">
+                    
+                  
+                    
+                      
+                        <div class="input-wrapper _input-wrapper">
+                          <div class="ccad7a0a6 c6d9d5348 text c1ccb7b35 ulp-field c1f7eeaab" data-action-text="" data-alternate-action-text="">
+                            <label id="username-label" class="ce3961836 c2f71fb7f c6979f179" for="username">
+                              Correo electrónico
+                            
+                              <span class="required" aria-hidden="true">*</span>
+                            </label>
+                          
+                            <input class="input ca4402a24 c5966c33d" inputmode="email" name="username" id="username" type="text" aria-labelledby="username-label" aria-required="true" value="" required="" autocomplete="email" autocapitalize="none" spellcheck="false" autofocus="">
+                          </div>
+                        
+                          
+                        
+                          
+                            <div id="error-cs-email-required" class="ulp-error-info aria-error-check" data-ulp-validation-function="ulpRequiredFunction" data-ulp-validation-event-listeners="blur,change,input,focus" data-ulp-validation-target="username">Por favor, introduzca una dirección de correo electrónico</div>
+                          
+                        
+                          
+                            <div id="error-cs-email-invalid" class="ulp-error-info aria-error-check" data-ulp-validation-function="ulpEmailValidationFunction" data-ulp-validation-event-listeners="blur,change,input,focus" data-ulp-validation-target="username">Introduce un correo electrónico válido (por ejemplo, usuario@dominio.com).</div>
+                          
+                        
+                          
+                            <div id="error-cs-pattern-mismatch" class="ulp-error-info aria-error-check" data-ulp-validation-function="ulpPatternCheckFunction" data-ulp-validation-event-listeners="blur,change,input,focus" data-ulp-validation-target="username">El nombre de usuario tiene caracteres no válido.</div>
+                          
+                        
+                          
+                        </div>
+                      
+                    
+                  
+                    
+                      <div class="input-wrapper _input-wrapper">
+                        <div class="ccad7a0a6 c6d9d5348 password cac926bb5 ulp-field c1f7eeaab" data-action-text="" data-alternate-action-text="">
+                          <label id="password-label" class="ce3961836 c2f71fb7f c8db36551" for="password">
+                            Contraseña
+                          
+                            <span class="required" aria-hidden="true">*</span>
+                          </label>
+                        
+                          <input class="input ca4402a24 c703b7196" name="password" id="password" type="password" aria-labelledby="password-label" aria-required="true" required="" autocomplete="current-password" autocapitalize="none" spellcheck="false">
+                        
+                          
+                            <button type="button" role="switch" aria-checked="false" aria-label="Mostrar contraseña" class="c43e5964f ulp-button-icon js-required c91116a5a _button-icon" data-action="toggle">
+                              <span aria-hidden="true" class="password-icon-tooltip show-password-tooltip">Mostrar contraseña</span>
+                            
+                              <span aria-hidden="true" class="password-icon-tooltip hide-password-tooltip hide">Ocultar contraseña</span>
+                            
+                              <span class="c7c1145a3 password js-required" aria-hidden="true"></span>
+                            </button>
+                          
+                        </div>
+                      
+                        
+                          <div id="error-cs-password-required" class="ulp-error-info aria-error-check" data-ulp-validation-function="ulpRequiredFunction" data-ulp-validation-event-listeners="blur,change,input,focus" data-ulp-validation-target="password">La contraseña es requerida</div>
+                        
+                      
+                        
+                      
+                        
+                      
+                        
+                          <div id="error-cs-pattern-mismatch" class="ulp-error-info aria-error-check" data-ulp-validation-function="ulpPatternCheckFunction" data-ulp-validation-event-listeners="blur,change,input,focus" data-ulp-validation-target="password">El nombre de usuario tiene caracteres no válido.</div>
+                        
+                      
+                        
+                      </div>
+                    
+                  
+                    
+                  </div>
+                </div>
+              
+                
+                  
+                    <p class="c5a1bb871 c44970aab">
+                      
+                        <a class="c6d2d642b cb7e87754 c7e82460a" href="https://accounts.kueski.com/u/login/password-reset-start/Username-Password-Authentication?state=hKFo2SBZZGFIaFBzdUh4WXpES3Y4ZkxXanU3Q2VIU3BUaHd2SKFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIHFRZXd6Q19LdU9jcnJMZjl6YWg4RVpMajdpMHlrRVlYo2NpZNkgdDVaRGE2dmtjQ1JybmM1anIzSzdtbDlYNlVPV0lyQ3E">¿Olvidaste tu contraseña?</a>
+                      
+                    </p>
+                  
+                
+              
+                
+              
+                <div class="c119454fb">
+                  
+                    <button type="submit" name="action" value="default" class="c43e5964f ce0af598a c91116a5a cc154790a c9160675f" data-action-button-primary="true" id="buttonContinueId">Iniciar sesión</button>
+                  
+                </div>
+              </form>
+            
+          
+        
+          
+        
+          
+            <div class="ulp-alternate-action  _alternate-action __s16nu9">
+              <p class="c5c40dd4a c96abfc46 cfb9e7184">¿Aún no tienes cuenta?
+                <a class="c6d2d642b c7e82460a" href="https://app.kueski.com/?_gl=1*11anw9c*_gcl_au*MTk4MzU2MTIzOS4xNzUxNzY4MTc3*_ga*MTYwNDMzOTA5OC4xNzUxNzY4MTc4*_ga_9FMG6KE6FH*czE3NTE3NjgxNzckbzEkZzEkdDE3NTE3NjgyMjYkajExJGwwJGgw/#sign-up" id="signupLinkId">Crear una cuenta</a>
+              </p>
+            </div>
+          
+        
+          
+        
+          
+        
+          
+        </div>
+      </div>
+    </div>
+  
+    
+  </section>
+</main>
+
+<div id="no-signup-info" class="d-none flex-column-reverse flex-md-column no-signup-info align-items-center align-items-md-start">
+                    <section class="d-flex flex-row flex-md-column flex-grow-1 justify-content-between signup-card">
+                        <div class="d-flex flex-row-reverse justify-content-between align-items-center no-signup-row">
+                            <div class="d-flex flex-column no-signup-row">
+                                <div class="d-flex">
+                                    <strong id="no-signup-title" class="no-signup-title">¿Todavía no tienes cuenta en Kueski?</strong>
+                                </div>
+                                <div class="d-flex">
+                                    <span id="no-signup-desc" class="d-block no-signup-desc">Necesitas una cuenta para continuar con tu
+                                        proceso de pago. Para crearla, visita:
+                                        <a href="javascript:undefined"> kueskipay.com</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" class="information-icon" fill="none">
+                                    <path d="M10.0003 18.7713C5.39783 18.7713 1.66699 15.0405 1.66699 
+                                    10.438C1.66699 5.83546 5.39783 2.10462 10.0003 2.10462C14.6028 2.10462 18.3337 5.83546 
+                                    18.3337 10.438C18.3337 15.0405 14.6028 18.7713 10.0003 18.7713ZM10.0003 17.1046C11.7684 17.1046 
+                                    13.4641 16.4022 14.7144 15.152C15.9646 13.9018 16.667 12.2061 16.667 10.438C16.667 8.66985 15.9646 
+                                    6.97415 14.7144 5.72391C13.4641 4.47367 11.7684 3.77129 10.0003 3.77129C8.23222 3.77129 6.53652 
+                                    4.47367 5.28628 5.72391C4.03604 6.97415 3.33366 8.66985 3.33366 10.438C3.33366 12.2061 4.03604 
+                                    13.9018 5.28628 15.152C6.53652 16.4022 8.23222 17.1046 10.0003 17.1046ZM9.16699 
+                                    6.27129H10.8337V7.93796H9.16699V6.27129ZM9.16699 9.60462H10.8337V14.6046H9.16699V9.60462Z" fill="#0075FF"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- END no-signup-info -->
+
+                <p id="signup-tyc" class="d-none signup-legals">Confirmo que al crear mi cuenta, he leído y entendido los
+                    <a href="https://kueski.com/terminosdeuso" target="_blank" onclick="setInfoAmplitudeButtonClicked(&#39;tyc_link&#39;)">Términos y Condiciones</a>
+                    del servicio y aceptado el
+                    <a href="https://kueski.com/politicas" target="_blank" onclick="setInfoAmplitudeButtonClicked(&#39;privacy_link&#39;)">Aviso de privacidad</a>
+                    de Kueski.
+                </p>
+
+                     <!-- start pay instructions legacy-->
+                <div id="pay-instructions-legacy" class="d-none flex-column-reverse flex-md-column instructions align-items-center align-items-md-start">
+                    <section class="d-flex flex-md-column flex-grow-1 justify-content-between instructions-card">
+                        <div class="d-flex flex-row-reverse justify-content-between align-items-center instructions-row">
+                            <div class="d-flex flex-column instructions-row">
+                                <div class="d-flex">
+                                    <strong id="instructions-title-legacy" class="instructions-title">Proceso fácil y rápido</strong>
+                                </div>
+                                <div class="d-flex">
+                                    <span id="instructions-desc-legacy" class="d-block instructions-desc">Obtén una respuesta en minutos.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M10.3326 2.46877C10.664 2.91059 10.5745 3.5374 10.1327 3.86877L7.46608 5.86877C7.02426 6.20015 6.39746 6.11062 6.06608 5.6688C5.7347 5.22698 5.82423 4.60017 6.26606 4.26879L8.93262 2.2688C9.37444 1.93742 10.0012 2.02695 10.3326 2.46877ZM22.0663 2.4688C21.7349 2.91062 21.8244 3.53742 22.2662 3.86881L24.9327 5.8688C25.3745 6.20019 26.0013 6.11066 26.3327 5.66885C26.6641 5.22703 26.5746 4.60023 26.1327 4.26884L23.4663 2.26885C23.0245 1.93746 22.3976 2.02698 22.0663 2.4688ZM27 17.0688C27 23.144 22.0751 28.0688 16 28.0688C9.92487 28.0688 5 23.144 5 17.0688C5 10.9937 9.92487 6.06885 16 6.06885C22.0751 6.06885 27 10.9937 27 17.0688ZM29 17.0688C29 24.2485 23.1797 30.0688 16 30.0688C8.8203 30.0688 3 24.2485 3 17.0688C3 9.88915 8.8203 4.06885 16 4.06885C23.1797 4.06885 29 9.88915 29 17.0688ZM16.0092 7.0689C16.5615 7.0689 17.0092 7.51662 17.0092 8.0689V8.12011C17.0092 8.65723 16.5371 9.0689 16 9.0689C15.4723 9.0689 15.0092 8.66406 15.0092 8.13637V8.0689C15.0092 7.51662 15.4569 7.0689 16.0092 7.0689ZM10.3432 11.412C10.7196 11.0356 10.7619 10.4165 10.3855 10.0401L10.3457 10.0003C9.9552 9.6098 9.32203 9.6098 8.93151 10.0003C8.54098 10.3908 8.54098 11.024 8.93151 11.4145L8.97125 11.4543C9.34765 11.8307 9.96678 11.7884 10.3432 11.412ZM8 17.0689C8 16.5412 7.59512 16.078 7.0674 16.078H7C6.44771 16.078 6 16.5257 6 17.078C6 17.6303 6.44771 18.078 7 18.078H7.05129C7.58836 18.078 8 17.606 8 17.0689ZM10.351 22.7336C9.97447 22.3581 9.35615 22.3164 8.98015 22.6924L8.9315 22.741C8.54098 23.1316 8.54098 23.7647 8.9315 24.1552C9.32203 24.5458 9.95519 24.5458 10.3457 24.1552L10.3943 24.1066C10.7711 23.7298 10.7283 23.1099 10.351 22.7336ZM16 25.0689C15.4723 25.0689 15.0092 25.4737 15.0092 26.0014V26.087C15.0092 26.6393 15.4569 27.087 16.0092 27.087C16.5615 27.087 17.0092 26.6393 17.0092 26.087V26.0177C17.0092 25.4806 16.5371 25.0689 16 25.0689ZM21.6569 22.7257C21.2805 23.1021 21.2382 23.7212 21.6146 24.0977L21.6722 24.1552C22.0627 24.5458 22.6959 24.5458 23.0864 24.1552C23.477 23.7647 23.477 23.1316 23.0864 22.741L23.0288 22.6834C22.6524 22.307 22.0333 22.3493 21.6569 22.7257ZM24 17.0689C24 17.606 24.4116 18.078 24.9487 18.078H25.0181C25.5704 18.078 26.0181 17.6303 26.0181 17.078C26.0181 16.5257 25.5704 16.078 25.0181 16.078H24.9326C24.4049 16.078 24 16.5412 24 17.0689ZM21.6647 11.4199C22.041 11.7972 22.6609 11.84 23.0377 11.4632L23.0864 11.4145C23.4769 11.024 23.4769 10.3908 23.0864 10.0003C22.6959 9.6098 22.0627 9.6098 21.6722 10.0003L21.6235 10.049C21.2475 10.4251 21.2892 11.0434 21.6647 11.4199ZM14.4596 11.3824C14.6288 10.9614 15.2262 10.9653 15.3899 11.3885L17.0061 15.5674L18.8677 15.3191C19.2472 15.2685 19.5405 15.6459 19.3977 16.0012L16.9748 22.0293C16.8056 22.4503 16.2082 22.4464 16.0446 22.0232L14.4284 17.8443L12.5668 18.0926C12.1872 18.1432 11.894 17.7658 12.0368 17.4105L14.4596 11.3824Z" fill="#282C38"></path> </svg>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row-reverse justify-content-between align-items-center instructions-row">
+                            <div class="d-flex flex-column instructions-row">
+                                <div class="d-flex">
+                                    <strong id="instructions-title2-legacy" class="instructions-title">Pagos flexibles</strong>
+                                </div>
+                                <div class="d-flex">
+                                    <span id="instructions-desc2-legacy" class="d-block instructions-desc">Paga de la forma que mejor se acomode a tus necesidades.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M8 19.0691C8 17.9645 8.89543 17.0691 10 17.0691C11.1046 17.0691 12 17.9645 12 19.0691C12 20.1737 11.1046 21.0691 10 21.0691C8.89543 21.0691 8 20.1737 8 19.0691Z" fill="#282C38"></path>
+                                    <path d="M22 17.0691C23.1046 17.0691 24 17.9645 24 19.0691C24 20.1737 23.1046 21.0691 22 21.0691C20.8954 21.0691 20 20.1737 20 19.0691C20 17.9645 20.8954 17.0691 22 17.0691Z" fill="#282C38"></path>
+                                    <path d="M14 19.0691C14 17.9645 14.8954 17.0691 16 17.0691C17.1046 17.0691 18 17.9645 18 19.0691C18 20.1737 17.1046 21.0691 16 21.0691C14.8954 21.0691 14 20.1737 14 19.0691Z" fill="#282C38"></path>
+                                    <path d="M11 4.0686V5.06909H21V4.06909C21 3.51681 21.4477 3.06909 22 3.06909C22.5523 3.06909 23 3.51681 23 4.06909V5.06909H24C26.2091 5.06909 28 6.85995 28 9.06909V25.0691C28 27.2782 26.2091 29.0691 24 29.0691H8C5.79086 29.0691 4 27.2782 4 25.0691V9.06909C4 6.85995 5.79086 5.06909 8 5.06909H9V4.0686C9 3.51632 9.44772 3.0686 10 3.0686C10.5523 3.0686 11 3.51632 11 4.0686ZM6 9.06909V10.0691H26V9.06909C26 7.96452 25.1046 7.06909 24 7.06909H23C23 7.62138 22.5523 8.06909 22 8.06909C21.4477 8.06909 21 7.62138 21 7.06909H11C10.9997 7.62115 10.5521 8.0686 10 8.0686C9.44788 8.0686 9.00026 7.62115 9 7.06909H8C6.89543 7.06909 6 7.96452 6 9.06909ZM8 27.0691H24C25.1046 27.0691 26 26.1737 26 25.0691V12.0691H6V25.0691C6 26.1737 6.89543 27.0691 8 27.0691Z" fill="#282C38"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row-reverse justify-content-between align-items-center instructions-row">
+                            <div class="d-flex flex-column instructions-row">
+                                <div class="d-flex">
+                                    <strong id="instructions-title3-legacy" class="instructions-title">Seguridad y privacidad</strong>
+                                </div>
+                                <div class="d-flex">
+                                    <span id="instructions-desc3-legacy" class="d-block instructions-desc">Somos una empresa supervisada por CONDUSEF y cumplimos con la Ley Federal de Protección de Datos Personales.
+                                        <a class="modal-link modal-opener" id="learn-more-1">Conocer más</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5934 4.14504C15.9263 4.04251 16.2792 4.04347 16.6117 4.14786L25.6076 6.97227C25.8143 7.03717 26 7.25789 26 7.55803V12.1249C26 18.9142 22.2686 25.0679 16.465 27.9513C16.1486 28.1085 15.7857 28.108 15.4698 27.9501C9.70227 25.0667 6.00003 18.9424 6.00001 12.1872L6 7.56715C6 7.26409 6.18828 7.0417 6.39728 6.97733L15.5934 4.14504ZM17.2108 2.2397C16.4919 2.01399 15.7248 2.01186 15.0047 2.23364L5.80859 5.06593C4.70992 5.40431 4 6.44056 4 7.56716L4.00001 12.1872C4.00003 19.6622 8.09716 26.5003 14.5754 29.739C15.453 30.1777 16.4765 30.1788 17.3549 29.7424C23.8716 26.5047 28 19.6359 28 12.1249V7.55803C28 6.43778 27.2971 5.40648 26.2067 5.06411L17.2108 2.2397ZM21.6285 14.0801C22.019 13.6896 22.019 13.0564 21.6285 12.6659C21.238 12.2754 20.6048 12.2754 20.2143 12.6659L15.0263 17.8539L12.8057 15.6333C12.4151 15.2427 11.782 15.2427 11.3914 15.6333C11.0009 16.0238 11.0009 16.6569 11.3914 17.0475L14.1777 19.8338C14.6463 20.3024 15.4061 20.3024 15.8748 19.8338L21.6285 14.0801Z" fill="#0E1214"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- END pay instructions legacy-->
+
+                <!-- start pay instructions -->
+                <div id="pay-instructions" class="d-none flex-column-reverse flex-md-column instructions align-items-center align-items-md-start">
+                    <section class="d-flex flex-md-column flex-grow-1 justify-content-between instructions-card">
+                        <div class="d-flex flex-row-reverse justify-content-between align-items-center instructions-row">
+                            <div class="d-flex flex-column instructions-row">
+                                <div class="d-flex">
+                                    <strong id="instructions-title" class="instructions-title">Proceso fácil y rápido</strong>
+                                </div>
+                                <div class="d-flex">
+                                    <span id="instructions-desc" class="d-block instructions-desc">Obtén una respuesta en minutos.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg"> <path fill-rule="evenodd" clip-rule="evenodd" d="M10.3326 2.46877C10.664 2.91059 10.5745 3.5374 10.1327 3.86877L7.46608 5.86877C7.02426 6.20015 6.39746 6.11062 6.06608 5.6688C5.7347 5.22698 5.82423 4.60017 6.26606 4.26879L8.93262 2.2688C9.37444 1.93742 10.0012 2.02695 10.3326 2.46877ZM22.0663 2.4688C21.7349 2.91062 21.8244 3.53742 22.2662 3.86881L24.9327 5.8688C25.3745 6.20019 26.0013 6.11066 26.3327 5.66885C26.6641 5.22703 26.5746 4.60023 26.1327 4.26884L23.4663 2.26885C23.0245 1.93746 22.3976 2.02698 22.0663 2.4688ZM27 17.0688C27 23.144 22.0751 28.0688 16 28.0688C9.92487 28.0688 5 23.144 5 17.0688C5 10.9937 9.92487 6.06885 16 6.06885C22.0751 6.06885 27 10.9937 27 17.0688ZM29 17.0688C29 24.2485 23.1797 30.0688 16 30.0688C8.8203 30.0688 3 24.2485 3 17.0688C3 9.88915 8.8203 4.06885 16 4.06885C23.1797 4.06885 29 9.88915 29 17.0688ZM16.0092 7.0689C16.5615 7.0689 17.0092 7.51662 17.0092 8.0689V8.12011C17.0092 8.65723 16.5371 9.0689 16 9.0689C15.4723 9.0689 15.0092 8.66406 15.0092 8.13637V8.0689C15.0092 7.51662 15.4569 7.0689 16.0092 7.0689ZM10.3432 11.412C10.7196 11.0356 10.7619 10.4165 10.3855 10.0401L10.3457 10.0003C9.9552 9.6098 9.32203 9.6098 8.93151 10.0003C8.54098 10.3908 8.54098 11.024 8.93151 11.4145L8.97125 11.4543C9.34765 11.8307 9.96678 11.7884 10.3432 11.412ZM8 17.0689C8 16.5412 7.59512 16.078 7.0674 16.078H7C6.44771 16.078 6 16.5257 6 17.078C6 17.6303 6.44771 18.078 7 18.078H7.05129C7.58836 18.078 8 17.606 8 17.0689ZM10.351 22.7336C9.97447 22.3581 9.35615 22.3164 8.98015 22.6924L8.9315 22.741C8.54098 23.1316 8.54098 23.7647 8.9315 24.1552C9.32203 24.5458 9.95519 24.5458 10.3457 24.1552L10.3943 24.1066C10.7711 23.7298 10.7283 23.1099 10.351 22.7336ZM16 25.0689C15.4723 25.0689 15.0092 25.4737 15.0092 26.0014V26.087C15.0092 26.6393 15.4569 27.087 16.0092 27.087C16.5615 27.087 17.0092 26.6393 17.0092 26.087V26.0177C17.0092 25.4806 16.5371 25.0689 16 25.0689ZM21.6569 22.7257C21.2805 23.1021 21.2382 23.7212 21.6146 24.0977L21.6722 24.1552C22.0627 24.5458 22.6959 24.5458 23.0864 24.1552C23.477 23.7647 23.477 23.1316 23.0864 22.741L23.0288 22.6834C22.6524 22.307 22.0333 22.3493 21.6569 22.7257ZM24 17.0689C24 17.606 24.4116 18.078 24.9487 18.078H25.0181C25.5704 18.078 26.0181 17.6303 26.0181 17.078C26.0181 16.5257 25.5704 16.078 25.0181 16.078H24.9326C24.4049 16.078 24 16.5412 24 17.0689ZM21.6647 11.4199C22.041 11.7972 22.6609 11.84 23.0377 11.4632L23.0864 11.4145C23.4769 11.024 23.4769 10.3908 23.0864 10.0003C22.6959 9.6098 22.0627 9.6098 21.6722 10.0003L21.6235 10.049C21.2475 10.4251 21.2892 11.0434 21.6647 11.4199ZM14.4596 11.3824C14.6288 10.9614 15.2262 10.9653 15.3899 11.3885L17.0061 15.5674L18.8677 15.3191C19.2472 15.2685 19.5405 15.6459 19.3977 16.0012L16.9748 22.0293C16.8056 22.4503 16.2082 22.4464 16.0446 22.0232L14.4284 17.8443L12.5668 18.0926C12.1872 18.1432 11.894 17.7658 12.0368 17.4105L14.4596 11.3824Z" fill="#282C38"></path> </svg>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row-reverse justify-content-between align-items-center instructions-row">
+                            <div class="d-flex flex-column instructions-row">
+                                <div class="d-flex">
+                                    <strong id="instructions-title2" class="instructions-title">Soluciones flexibles</strong>
+                                </div>
+                                <div class="d-flex">
+                                    <span id="instructions-desc2" class="d-block instructions-desc">Obtén hasta $25,000 o compra hoy y paga después, sin cargos ocultos.
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M24.5311 0.508611C24.6922 0.0733016 25.3078 0.0733016 25.4689 0.508611L25.7305 1.21546C25.7811 1.35232 25.889 1.46023 26.0259 1.51087L26.7327 1.77243C27.1681 1.93351 27.1681 2.5492 26.7327 2.71028L26.0259 2.97184C25.889 3.02249 25.7811 3.13039 25.7305 3.26725L25.4689 3.9741C25.3078 4.40941 24.6922 4.40941 24.5311 3.9741L24.2695 3.26725C24.2189 3.13039 24.111 3.02249 23.9741 2.97184L23.2673 2.71028C22.8319 2.5492 22.8319 1.93351 23.2673 1.77243L23.9741 1.51087C24.111 1.46023 24.2189 1.35232 24.2695 1.21546L24.5311 0.508611Z" fill="#282C38"></path>
+                                    <path d="M26 14.2414C26 20.8688 20.6274 26.2414 14 26.2414C7.37258 26.2414 2 20.8688 2 14.2414C2 7.61394 7.37258 2.24136 14 2.24136C15.5156 2.24136 16.9655 2.52232 18.3006 3.035C18.8518 3.24666 19.4904 2.99481 19.6937 2.44047C19.8701 1.95918 19.6523 1.41895 19.1761 1.22933C17.5749 0.591856 15.8284 0.241358 14 0.241358C6.26801 0.241358 0 6.50937 0 14.2414C0 21.9733 6.26801 28.2414 14 28.2414C21.732 28.2414 28 21.9733 28 14.2414C28 12.7135 27.7552 11.2428 27.3028 9.86628C27.1169 9.3007 26.4604 9.07042 25.9362 9.35267C25.4845 9.5959 25.292 10.1383 25.4463 10.6276C25.806 11.768 26 12.982 26 14.2414Z" fill="#282C38"></path>
+                                    <path d="M14.0002 8.22122C14.5525 8.22122 15.0002 8.66893 15.0002 9.22122V10.2564H16.0002C16.5525 10.2564 17.0002 10.7041 17.0002 11.2564C17.0002 11.8086 16.5525 12.2564 16.0002 12.2564H12.5077C12.2275 12.2564 12.0002 12.4836 12.0002 12.7639C12.0002 13.0441 12.2275 13.2714 12.5077 13.2714H14.6656L14.6762 13.2714H15.4927C16.8776 13.2714 18.0002 14.3941 18.0002 15.7789C18.0002 17.1638 16.8776 18.2864 15.4927 18.2864H15.0002V19.2864C15.0002 19.8387 14.5525 20.2864 14.0002 20.2864C13.448 20.2864 13.0002 19.8387 13.0002 19.2864V18.2864H11.0002C10.448 18.2864 10.0002 17.8387 10.0002 17.2864C10.0002 16.7341 10.448 16.2864 11.0002 16.2864H15.4927C15.773 16.2864 16.0002 16.0592 16.0002 15.7789C16.0002 15.4986 15.773 15.2714 15.4927 15.2714H13.0941L13.0835 15.2714H12.5077C11.1229 15.2714 10.0002 14.1487 10.0002 12.7639C10.0002 11.379 11.1229 10.2564 12.5077 10.2564H13.0002V9.22122C13.0002 8.66893 13.448 8.22122 14.0002 8.22122Z" fill="#282C38"></path>
+                                    <path d="M19.4442 6.76639C18.9858 6.91714 18.9858 7.56557 19.4442 7.71633L20.7702 8.15242C20.921 8.20203 21.0393 8.32034 21.0889 8.47118L21.525 9.79715C21.6758 10.2555 22.3242 10.2555 22.475 9.79715L22.9111 8.47118C22.9607 8.32034 23.079 8.20203 23.2298 8.15242L24.5558 7.71633C25.0142 7.56558 25.0142 6.91714 24.5558 6.76639L23.2298 6.3303C23.079 6.28069 22.9607 6.16238 22.9111 6.01154L22.475 4.68556C22.3242 4.22718 21.6758 4.22718 21.525 4.68556L21.0889 6.01154C21.0393 6.16238 20.921 6.28069 20.7702 6.3303L19.4442 6.76639Z" fill="#282C38"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-row-reverse justify-content-between align-items-center instructions-row">
+                            <div class="d-flex flex-column instructions-row">
+                                <div class="d-flex">
+                                    <strong id="instructions-title3" class="instructions-title">Seguridad y privacidad</strong>
+                                </div>
+                                <div class="d-flex">
+                                    <span id="instructions-desc3" class="d-block instructions-desc">Somos una empresa supervisada por CONDUSEF y cumplimos con la Ley Federal de Protección de Datos Personales.
+                                        <a class="modal-link modal-opener" id="learn-more-2">Conocer más</a>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5934 4.14504C15.9263 4.04251 16.2792 4.04347 16.6117 4.14786L25.6076 6.97227C25.8143 7.03717 26 7.25789 26 7.55803V12.1249C26 18.9142 22.2686 25.0679 16.465 27.9513C16.1486 28.1085 15.7857 28.108 15.4698 27.9501C9.70227 25.0667 6.00003 18.9424 6.00001 12.1872L6 7.56715C6 7.26409 6.18828 7.0417 6.39728 6.97733L15.5934 4.14504ZM17.2108 2.2397C16.4919 2.01399 15.7248 2.01186 15.0047 2.23364L5.80859 5.06593C4.70992 5.40431 4 6.44056 4 7.56716L4.00001 12.1872C4.00003 19.6622 8.09716 26.5003 14.5754 29.739C15.453 30.1777 16.4765 30.1788 17.3549 29.7424C23.8716 26.5047 28 19.6359 28 12.1249V7.55803C28 6.43778 27.2971 5.40648 26.2067 5.06411L17.2108 2.2397ZM21.6285 14.0801C22.019 13.6896 22.019 13.0564 21.6285 12.6659C21.238 12.2754 20.6048 12.2754 20.2143 12.6659L15.0263 17.8539L12.8057 15.6333C12.4151 15.2427 11.782 15.2427 11.3914 15.6333C11.0009 16.0238 11.0009 16.6569 11.3914 17.0475L14.1777 19.8338C14.6463 20.3024 15.4061 20.3024 15.8748 19.8338L21.6285 14.0801Z" fill="#0E1214"></path>
+                                </svg>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <!-- END pay instructions -->
+
+            <!-- start pay instructions AMZ-->
+            <div id="pay-instructions-amz" class="d-none flex-column-reverse flex-md-column instructions align-items-center align-items-md-start">
+                <section class="d-flex flex-md-column flex-grow-1 justify-content-between instructions-card">
+                    <div class="d-flex flex-row-reverse justify-content-between align-items-center instructions-row">
+                        <div class="d-flex flex-column instructions-row">
+                            <div class="d-flex">
+                                <strong id="instructions-title-amz" class="instructions-title">Seguridad en cada paso</strong>
+                            </div>
+                            <div class="d-flex">
+                                <span id="instructions-desc-amz" class="d-block instructions-desc">Tu seguridad es nuestra prioridad. Estamos supervisados por CONDUSEF y por la CNBV.
+                                    <a class="modal-link modal-opener" id="learn-more-3">Conocer más</a>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5934 4.14504C15.9263 4.04251 16.2792 4.04347 16.6117 4.14786L25.6076 6.97227C25.8143 7.03717 26 7.25789 26 7.55803V12.1249C26 18.9142 22.2686 25.0679 16.465 27.9513C16.1486 28.1085 15.7857 28.108 15.4698 27.9501C9.70227 25.0667 6.00003 18.9424 6.00001 12.1872L6 7.56715C6 7.26409 6.18828 7.0417 6.39728 6.97733L15.5934 4.14504ZM17.2108 2.2397C16.4919 2.01399 15.7248 2.01186 15.0047 2.23364L5.80859 5.06593C4.70992 5.40431 4 6.44056 4 7.56716L4.00001 12.1872C4.00003 19.6622 8.09716 26.5003 14.5754 29.739C15.453 30.1777 16.4765 30.1788 17.3549 29.7424C23.8716 26.5047 28 19.6359 28 12.1249V7.55803C28 6.43778 27.2971 5.40648 26.2067 5.06411L17.2108 2.2397ZM21.6285 14.0801C22.019 13.6896 22.019 13.0564 21.6285 12.6659C21.238 12.2754 20.6048 12.2754 20.2143 12.6659L15.0263 17.8539L12.8057 15.6333C12.4151 15.2427 11.782 15.2427 11.3914 15.6333C11.0009 16.0238 11.0009 16.6569 11.3914 17.0475L14.1777 19.8338C14.6463 20.3024 15.4061 20.3024 15.8748 19.8338L21.6285 14.0801Z" fill="#0E1214"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-row-reverse justify-content-between align-items-center instructions-row">
+                        <div class="d-flex flex-column instructions-row">
+                            <div class="d-flex">
+                                <strong id="instructions-title2-amz" class="instructions-title">Soluciones flexibles</strong>
+                            </div>
+                            <div class="d-flex">
+                                <span id="instructions-desc2-amz" class="d-block instructions-desc">Obten hasta $25,000 o compra hoy y paga en quincenas, sin pagos ocultos.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="d-flex">
+                            <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.5311 0.508611C24.6922 0.0733016 25.3078 0.0733016 25.4689 0.508611L25.7305 1.21546C25.7811 1.35232 25.889 1.46023 26.0259 1.51087L26.7327 1.77243C27.1681 1.93351 27.1681 2.5492 26.7327 2.71028L26.0259 2.97184C25.889 3.02249 25.7811 3.13039 25.7305 3.26725L25.4689 3.9741C25.3078 4.40941 24.6922 4.40941 24.5311 3.9741L24.2695 3.26725C24.2189 3.13039 24.111 3.02249 23.9741 2.97184L23.2673 2.71028C22.8319 2.5492 22.8319 1.93351 23.2673 1.77243L23.9741 1.51087C24.111 1.46023 24.2189 1.35232 24.2695 1.21546L24.5311 0.508611Z" fill="#282C38"></path>
+                                <path d="M26 14.2414C26 20.8688 20.6274 26.2414 14 26.2414C7.37258 26.2414 2 20.8688 2 14.2414C2 7.61394 7.37258 2.24136 14 2.24136C15.5156 2.24136 16.9655 2.52232 18.3006 3.035C18.8518 3.24666 19.4904 2.99481 19.6937 2.44047C19.8701 1.95918 19.6523 1.41895 19.1761 1.22933C17.5749 0.591856 15.8284 0.241358 14 0.241358C6.26801 0.241358 0 6.50937 0 14.2414C0 21.9733 6.26801 28.2414 14 28.2414C21.732 28.2414 28 21.9733 28 14.2414C28 12.7135 27.7552 11.2428 27.3028 9.86628C27.1169 9.3007 26.4604 9.07042 25.9362 9.35267C25.4845 9.5959 25.292 10.1383 25.4463 10.6276C25.806 11.768 26 12.982 26 14.2414Z" fill="#282C38"></path>
+                                <path d="M14.0002 8.22122C14.5525 8.22122 15.0002 8.66893 15.0002 9.22122V10.2564H16.0002C16.5525 10.2564 17.0002 10.7041 17.0002 11.2564C17.0002 11.8086 16.5525 12.2564 16.0002 12.2564H12.5077C12.2275 12.2564 12.0002 12.4836 12.0002 12.7639C12.0002 13.0441 12.2275 13.2714 12.5077 13.2714H14.6656L14.6762 13.2714H15.4927C16.8776 13.2714 18.0002 14.3941 18.0002 15.7789C18.0002 17.1638 16.8776 18.2864 15.4927 18.2864H15.0002V19.2864C15.0002 19.8387 14.5525 20.2864 14.0002 20.2864C13.448 20.2864 13.0002 19.8387 13.0002 19.2864V18.2864H11.0002C10.448 18.2864 10.0002 17.8387 10.0002 17.2864C10.0002 16.7341 10.448 16.2864 11.0002 16.2864H15.4927C15.773 16.2864 16.0002 16.0592 16.0002 15.7789C16.0002 15.4986 15.773 15.2714 15.4927 15.2714H13.0941L13.0835 15.2714H12.5077C11.1229 15.2714 10.0002 14.1487 10.0002 12.7639C10.0002 11.379 11.1229 10.2564 12.5077 10.2564H13.0002V9.22122C13.0002 8.66893 13.448 8.22122 14.0002 8.22122Z" fill="#282C38"></path>
+                                <path d="M19.4442 6.76639C18.9858 6.91714 18.9858 7.56557 19.4442 7.71633L20.7702 8.15242C20.921 8.20203 21.0393 8.32034 21.0889 8.47118L21.525 9.79715C21.6758 10.2555 22.3242 10.2555 22.475 9.79715L22.9111 8.47118C22.9607 8.32034 23.079 8.20203 23.2298 8.15242L24.5558 7.71633C25.0142 7.56558 25.0142 6.91714 24.5558 6.76639L23.2298 6.3303C23.079 6.28069 22.9607 6.16238 22.9111 6.01154L22.475 4.68556C22.3242 4.22718 21.6758 4.22718 21.525 4.68556L21.0889 6.01154C21.0393 6.16238 20.921 6.28069 20.7702 6.3303L19.4442 6.76639Z" fill="#282C38"></path>
+                            </svg>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            <!-- END pay instructions AMZ-->    
+
+            <!-- Start alternate action-->    
+            <div id="alternate-action" class="d-none flex-md-column align-items-center align-items-md-start">
+              <p class="login-link">¿Ya restableciste tu contraseña?
+                <a class="" aria-label="" id="login-reset-password">Iniciar sesión</a>
+              </p>
+            </div>
+            <!-- END alternate action-->    </div>
+        </div>
+    </div>
+    <footer class="container d-flex flex-column flex-sm-row justify-content-center justify-content-sm-between align-items-end align-items-sm-center pe-4 pe-sm-2 footer">
+        <svg class="d-none d-sm-flex" width="95" height="24" viewBox="0 0 95 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M90.6857 9.35024C90.6512 9.01277 90.7682 8.6774 91.005 8.43528C91.2418 8.19316 91.5738 8.06943 91.9107 8.09773H93.241C93.5778 8.06961 93.9095 8.19344 94.146 8.43557C94.3826 8.6777 94.4994 9.01296 94.4647 9.35024V9.72739C94.4995 10.0649 94.3829 10.4004 94.1463 10.6429C93.9098 10.8854 93.578 11.0096 93.241 10.9819H91.9107C91.5735 11.0098 91.2415 10.8857 91.0047 10.6432C90.7679 10.4007 90.651 10.0651 90.6857 9.72739V9.35024Z
+                    M40.2003 18.7416C40.2003 20.5994 41.0309 21.3597 42.2286 21.3597C43.2992 21.3597 44.3028 20.5994 45.0909 19.7953V12.4824C45.0859 12.305 45.1529 12.1332 45.2767 12.0065C45.4005 11.8798 45.5703 11.8091 45.7471 11.8106H48.1301C48.3062 11.8101 48.4748 11.8814 48.5975 12.008C48.7202 12.1347 48.7865 12.3058 48.7811 12.4824V23.1045C48.7865 23.281 48.7202 23.4522 48.5975 23.5788C48.4748 23.7055 48.3062 23.7767 48.1301 23.7763H45.7471C45.5703 23.7778 45.4005 23.7071 45.2767 23.5804C45.1529 23.4536 45.0859 23.2818 45.0909 23.1045V22.4167C44.0967 23.4085 42.7587 23.9761 41.357 24.0005C38.5186 24.0005 36.5081 22.4599 36.5081 18.7456V12.4864C36.5027 12.3091 36.5695 12.1373 36.693 12.0106C36.8166 11.8838 36.9863 11.813 37.163 11.8146H39.5427C39.7196 11.8132 39.8894 11.884 40.0134 12.0106C40.1373 12.1373 40.2048 12.3089 40.2003 12.4864V18.7416Z
+                    M56.6971 21.2377C54.9041 21.2377 54.1206 20.4535 53.9681 18.6648L61.9994 18.6622C62.176 18.6644 62.3458 18.5942 62.4695 18.4677C62.5932 18.3412 62.6599 18.1695 62.6543 17.9923V17.3644C62.6543 13.4273 60.3177 11.3027 56.432 11.3027C52.5682 11.3027 50.207 13.4965 50.207 17.5247C50.207 21.5696 52.5423 23.7154 56.432 23.7154C59.9286 23.7154 62.2652 22.9172 62.2652 20.5892C62.2707 20.4118 62.2037 20.2399 62.0798 20.1133C61.9559 19.9867 61.7858 19.9164 61.609 19.9187H60.0181C59.5408 19.9034 59.0854 20.1201 58.7951 20.5007C58.232 21.0345 57.4691 21.3025 56.6971 21.2377ZM58.9031 16.3639H53.9462C54.0351 14.6871 54.863 13.7891 56.4346 13.7904C58.0507 13.7904 58.8369 14.6884 58.9031 16.3639Z
+                    M70.1133 23.7167C66.5338 23.7167 64.2568 22.9145 64.2568 20.5904C64.2518 20.4134 64.3187 20.2419 64.4423 20.1154C64.5658 19.989 64.7353 19.9184 64.9118 19.9199H66.5093C66.9862 19.9065 67.4408 20.1229 67.7322 20.5019C68.301 21.0388 69.0709 21.3068 69.8488 21.2389C71.6856 21.2389 72.2981 20.8146 72.2981 20.184C72.2981 18.3295 64.2383 19.3592 64.2383 14.8407C64.2383 12.313 66.7035 11.3066 69.7845 11.3066C73.364 11.3066 75.6376 12.1122 75.6376 14.4402C75.6421 14.6173 75.5749 14.7886 75.4513 14.9151C75.3278 15.0415 75.1585 15.1124 74.982 15.1114H73.3852C72.9088 15.1262 72.4546 14.9097 72.1648 14.53C71.5954 13.991 70.8235 13.7218 70.0437 13.7904C68.5356 13.7904 67.9225 14.2141 67.9225 14.8407C67.9225 16.7032 75.9816 15.6262 75.9816 20.184C75.9869 22.7123 73.5197 23.7167 70.1133 23.7167Z
+                    M81.1755 16.2276C82.2458 16.319 83.2587 15.7286 83.7096 14.7502L84.7357 12.5153C85.0035 11.9039 85.5996 11.5032 86.265 11.4876H88.2735C88.8415 11.4876 88.9085 11.9352 88.6466 12.5153L87.2705 15.4906C86.8472 16.4563 86.0127 17.1793 84.9989 17.4588C85.9804 17.7976 86.794 18.503 87.2705 19.4284L89.0848 22.4216C89.4321 23.0063 89.2837 23.452 88.7116 23.452H86.7018C86.0134 23.4214 85.3917 23.0301 85.0645 22.4216L83.7103 20.1601C83.1859 19.2552 82.2192 18.7011 81.1762 18.7073V22.7788C81.1806 22.956 81.1134 23.1275 80.9897 23.2541C80.8661 23.3807 80.6966 23.4516 80.5199 23.4506H78.1402C77.964 23.4515 77.7951 23.3803 77.6722 23.2536C77.5493 23.1269 77.483 22.9555 77.4886 22.7788V8.75906C77.4829 8.58236 77.5491 8.41091 77.672 8.28427C77.795 8.15763 77.964 8.08673 78.1402 8.08791H80.5199C80.6966 8.08658 80.8662 8.15729 80.9899 8.28382C81.1136 8.41035 81.1808 8.58186 81.1762 8.75906L81.1755 16.2276Z
+                    M27.0661 16.4913C28.1366 16.5837 29.1501 15.9929 29.6003 15.0139L30.6277 12.779C30.8959 12.168 31.4918 11.7676 32.1569 11.7513H34.1641C34.7315 11.7513 34.8004 12.1989 34.5353 12.779L33.1579 15.7543C32.7367 16.7214 31.9017 17.445 30.8869 17.7225C31.8692 18.0597 32.6831 18.7656 33.1579 19.6921L34.9741 22.6853C35.3221 23.27 35.173 23.7157 34.6016 23.7157H32.5944C31.9058 23.686 31.2836 23.2945 30.9571 22.6853L29.6003 20.4237C29.0766 19.5182 28.1094 18.9638 27.0661 18.971V23.0425C27.0719 23.2193 27.0057 23.3908 26.8828 23.5175C26.7598 23.6443 26.5908 23.7153 26.4145 23.7143H24.0315C23.8547 23.7158 23.6849 23.6451 23.5611 23.5184C23.4373 23.3917 23.3702 23.2199 23.3753 23.0425V9.02275C23.37 8.84539 23.4371 8.67355 23.5609 8.54689C23.6848 8.42023 23.8547 8.34971 24.0315 8.3516H26.4145C26.5908 8.35023 26.7599 8.42108 26.8829 8.54776C27.0059 8.67444 27.0721 8.84599 27.0661 9.02275V16.4913Z
+                    M91.3849 23.7177C91.2086 23.7183 91.0395 23.6472 90.9162 23.5206C90.793 23.3941 90.726 23.2228 90.7307 23.0459V12.6998C90.726 12.5229 90.793 12.3515 90.9162 12.2249C91.0394 12.0982 91.2085 12.0269 91.3849 12.0274H93.7666C93.9431 12.0264 94.1124 12.0975 94.2356 12.2243C94.3587 12.3512 94.4251 12.5228 94.4195 12.6998V23.0459C94.4251 23.2228 94.3587 23.3944 94.2355 23.5212C94.1123 23.6479 93.943 23.7189 93.7666 23.7177H91.3849Z
+                    M14.7384 14.0751C14.7384 14.4077 14.112 20.0383 13.8157 22.8374C13.7314 23.3861 13.2341 23.773 12.6835 23.7181H3.15549C2.16119 23.7181 1.80921 23.2784 1.71375 22.7482C1.613 22.1935 1.08735 16.9114 0.824187 15.0323L0.732049 14.101C0.718491 13.8832 0.792598 13.669 0.937763 13.5065C1.08293 13.3439 1.28701 13.2466 1.50429 13.2363H13.9191C14.139 13.2377 14.3492 13.3269 14.5035 13.4842C14.6577 13.6414 14.7432 13.8538 14.7411 14.0744L14.7384 14.0751Z
+                    M8.38486 8.2202C8.48239 7.17033 7.86856 6.18457 6.88546 5.81229L4.61647 4.72873C3.99027 4.43625 3.5854 3.8107 3.57378 3.11769L3.57975 1.00844C3.58439 0.409788 4.0358 0.343271 4.62973 0.619981L7.64908 2.07404C8.63843 2.53099 9.37041 3.41036 9.64232 4.46865C9.98656 3.44727 10.7061 2.59609 11.6541 2.08867L14.7079 0.194938C15.2986 -0.171569 15.752 -0.0105986 15.752 0.588053L15.7486 2.6973C15.7171 3.41317 15.3189 4.06178 14.696 4.41211L12.3959 5.83025C11.4863 6.27941 10.9095 7.20758 10.9077 8.22485L15.046 8.24015C15.2289 8.23683 15.4052 8.30859 15.5341 8.43882C15.663 8.56904 15.7333 8.74644 15.7288 8.92993L15.7241 11.431C15.7341 11.6056 15.6691 11.7762 15.5456 11.8997C15.4221 12.0231 15.2518 12.0876 15.0778 12.0768H0.677725C0.495161 12.0784 0.319836 12.0053 0.192059 11.8744C0.0642819 11.7436 -0.00495175 11.5662 0.000275959 11.3831L0.00425315 8.88337C0.000603145 8.69974 0.0717342 8.52256 0.201216 8.39276C0.330698 8.26295 0.507332 8.19174 0.690319 8.19559L8.38486 8.2202Z" fill="#B4BACA"></path>
+        </svg>
+        <div class="d-flex justify-content-between mt-2 mt-sm-0">
+            <a class="footer-text" id="copyright">Kueski © 2025</a>
+            <a id="tycid" href="https://kueski.com/terminosdeuso" target="_blank" onclick="setInfoAmplitudeButtonClicked(&#39;tyc_link&#39;)" class="footer-text ms-4">Términos</a>
+            <a id="privacyid" href="https://kueski.com/politicas" target="_blank" onclick="setInfoAmplitudeButtonClicked(&#39;privacy_link&#39;)" class="footer-text ms-4">Privacidad</a>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Google Tag Manager -->
+
+</body></html>
